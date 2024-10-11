@@ -2,37 +2,32 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/etProductName"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Product Name" />
+    <TextView
+        android:id="@+id/text_view_product_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/etProductPrice"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Product Price" />
+    <TextView
+        android:id="@+id/text_view_product_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
-    <EditText
-        android:id="@+id/etProductDescription"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Product Description" />
+    <TextView
+        android:id="@+id/text_view_product_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/btnSave"
+        android:id="@+id/button_edit_product"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Save" />
+        android:text="Edit" />
 
     <Button
-        android:id="@+id/btnDelete"
+        android:id="@+id/button_delete_product"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Delete" />
-
 </LinearLayout>
